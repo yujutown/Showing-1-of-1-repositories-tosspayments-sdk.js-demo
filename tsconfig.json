@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "allowSyntheticDefaultImports": true,
+    "useUnknownInCatchVariables": false,
+    "moduleDetection": "force",
+    "moduleResolution": "node16",
+    "resolveJsonModule": false,
+    "strict": true,
+    "declaration": false,
+    "pretty": true,
+    "newLine": "lf",
+    "stripInternal": true,
+    "useDefineForClassFields": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "target": "esnext",
+    "lib": [
+      "es2020",
+    ],
+    "baseUrl": ".",
+    "module": "node16",
+    "isolatedModules": true,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "src/index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

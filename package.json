@@ -1,0 +1,16 @@
+{
+  "name": "@yuju/tosspayments-sdk-demo",
+  "packageManager": "yarn@3.3.1",
+  "dependencies": {
+    "@yuju/tosspayments-sdk": "^0.1.0",
+    "chrome-launcher": "^1.1.0"
+  },
+  "devDependencies": {
+    "typescript": "5.2.2"
+  },
+  "scripts": {
+    "start": "yarn build && node dist/index.js",
+    "build": "rm -rf dist && tsc"
+  },
+  "type": "module"
+}
